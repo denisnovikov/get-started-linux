@@ -1,0 +1,9 @@
+{
+  "name": "get-started-linux",
+  "version": "1.0.0",
+  "description": "Initial configuration linux debian when installing a new system",
+  "main": "./run.sh",
+  "repository": "git@github.com:denisnovikov/get-started-linux.git",
+  "author": "Denis Novikov <dnovikov1808@gmail.com>",
+  "private": true
+}
