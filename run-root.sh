@@ -7,7 +7,7 @@ if [ "$(id -u)" != "0" ]; then
 else
     sleep 1
     echo "\e[1mInstall basic packages\e[0m"
-    sh ./scripts/basic.sh
+    sh ./scripts/step-1.root-basic.sh
 fi
 
 sleep 1
