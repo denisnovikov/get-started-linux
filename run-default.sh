@@ -7,7 +7,7 @@ if [ "$(id -u)" != "0" ]; then
     sh ./scripts/structure.sh
     
     sleep 1
-    echo "\e[1mCreating a file structure for front-end development\e[0m"
+    echo "\e[1mCloning main repository for work of front-end\e[0m"
     sh ./scripts/cloning-repositories.sh
 else
     echo "\e[1mThis script must be run as normal user\e[0m"
