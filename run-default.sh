@@ -4,7 +4,7 @@ sleep 1
 if [ "$(id -u)" != "0" ]; then
     sleep 1
     echo "\e[1mCreating a file structure for front-end development\e[0m"
-    sh ./scripts/structure.sh
+    sh ./scripts/step-2.default-structure.sh
     
     sleep 1
     echo "\e[1mCloning main repository for work of front-end\e[0m"
