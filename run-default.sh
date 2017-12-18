@@ -8,7 +8,7 @@ if [ "$(id -u)" != "0" ]; then
     
     sleep 1
     echo "\e[1mCloning main repository for work of front-end\e[0m"
-    sh ./scripts/cloning-repositories.sh
+    sh ./scripts/step-3.default-repositories.sh
 else
     echo "\e[1mThis script must be run as normal user\e[0m"
     exit 1
